@@ -9,7 +9,7 @@ https://www.nvidia.com/en-us/drivers/
 
 ![img_3.png](img/img_3.png)
 ### 这里选择对应的显卡型号和系统
-![img_4.png](img_4.png)
+![img_4.png](img/img_4.png)
 ### 选择Studio Drivers 驱动下载和安装
 
 ### 2:查看显卡的驱动信息 
@@ -37,7 +37,7 @@ https://developer.nvidia.com/cuda-downloads
 
 得到3个目录 bin, include, lib
 
-![img_1.png](img_1.png)
+![img_1.png](img/img_1.png)
 
 把这3个目录复制到cuda的安装目录
 
@@ -49,7 +49,7 @@ https://developer.nvidia.com/cuda-downloads
 ```CMD
 nvcc -V
 ```
-![img_2.png](img_2.png)
+![img_2.png](img/img_2.png)
 
 ### 安装成功
 
