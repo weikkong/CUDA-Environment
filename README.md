@@ -1,4 +1,4 @@
-# cuda环境安装教程
+# cuda环境安装教程(for win)
 # CUDA-Environment
 CUDA Environment Files
 
