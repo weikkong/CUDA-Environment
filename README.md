@@ -28,10 +28,10 @@ nvidia-smi
 可以看到为 CUDA Version: 12.9 ,表示当前显卡支持的cuda版本
 
 
-第二步: 安装cuda环境:
+第二步: 安装CUDA开发环境:
 --------------
-### 1:下载cuda 
-cuda 官方下载地址 :
+### 1:下载CUDA Toolkit
+CUDA Toolkit 官方下载地址 :
 
 https://developer.nvidia.com/cuda-downloads
 
