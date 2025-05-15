@@ -59,6 +59,19 @@ nvcc -V
 
 ### 安装成功
 
+### **附: PyTorch 安装**
+```bash
+# 基础安装（CPU版）
+pip install torch torchvision
+
+# GPU版（需CUDA环境）
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+```
+- 验证 GPU 是否可用：
+```python
+import torch
+print(torch.cuda.is_available())  # 输出 True 表示GPU可用
+```
 
 
 
