@@ -7,7 +7,7 @@ NVIDIA Studio 官方驱动 下载地址:
 
 https://www.nvidia.com/en-us/drivers/
 
-![img_3.png](img_3.png)
+![img_3.png](img/img_3.png)
 ### 这里选择对应的显卡型号和系统
 ![img_4.png](img_4.png)
 ### 选择Studio Drivers 驱动下载和安装
@@ -19,7 +19,7 @@ https://www.nvidia.com/en-us/drivers/
 nvidia-smi  
 ```
 
-![img.png](img.png)
+![img.png](img/img.png)
 
 可以看到为 CUDA Version: 12.9 ,表示当前显卡支持的cuda版本
 
