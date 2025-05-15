@@ -31,6 +31,8 @@ cuda 官方下载地址 :
 
 https://developer.nvidia.com/cuda-downloads
 
+下载必须登录账号,没有就注册一个
+
 选择对应的cuda版本下载,这里要选择你显卡支持的版本
 
 ### 2:把下载的文件解压出来
