@@ -1,4 +1,4 @@
-# cuda环境安装: 
+# CUDA开发环境安装
 
 ### 第一步: 安装 NVIDIA Studio 显卡驱动:
 
@@ -24,10 +24,10 @@ nvidia-smi
 可以看到为 CUDA Version: 12.9 ,表示当前显卡支持的cuda版本
 
 
-第二步: 安装cuda环境:
+第二步: 安装CUDA开发环境:
 --------------
-### 1:下载cuda 
-cuda 官方下载地址 :
+### 1:下载CUDA Toolkit
+CUDA Toolkit 官方下载地址 :
 
 https://developer.nvidia.com/cuda-downloads
 
@@ -55,6 +55,19 @@ nvcc -V
 
 ### 安装成功
 
+### **附: PyTorch 安装**
+```bash
+# 基础安装（CPU版）
+pip install torch torchvision
+
+# GPU版（需CUDA环境）
+pip install torch torchvision --index-url https://download.pytorch.org/whl/cu118
+```
+- 验证 GPU 是否可用：
+```python
+import torch
+print(torch.cuda.is_available())  # 输出 True 表示GPU可用
+```
 
 
 
